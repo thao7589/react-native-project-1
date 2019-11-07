@@ -3,8 +3,9 @@ import { Text } from 'react-native';
 
 export default class Hello extends Component {
     render() {
+        let greeting = "Hello, this is my first Component";
         return (
-            <Text>Hello, this is my first Component</Text>
+            <Text>{ greeting }</Text>
         );
     }
 }
