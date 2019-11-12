@@ -5,11 +5,13 @@ import Robot from './components/Robot';
 import MultipleGreeting from './components/MultipleGreeting';
 import Blink from './components/Blink';
 import FlexView from './components/FlexView';
+import Email from './components/Email';
+import Button from './components/NativeButton';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <FlexView />
+      <Button />
     </View> 
   );
 }
@@ -17,6 +19,8 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff'
+    backgroundColor: '#fff',
+    justifyContent: 'center',
+    alignItems: 'center'
   },
 });
