@@ -7,20 +7,12 @@ import Blink from './components/Blink';
 import FlexView from './components/FlexView';
 import Email from './components/Email';
 import Button from './components/NativeButton';
+import FlatListBasic from './components/FlatListBasic';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Button />
+    <View>
+      <FlatListBasic />
     </View> 
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    justifyContent: 'center',
-    alignItems: 'center'
-  },
-});
